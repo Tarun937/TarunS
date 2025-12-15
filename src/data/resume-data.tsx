@@ -1,236 +1,135 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Tarun",
+  initials: "TG",
+  location: "India (Open to Remote & Germany)",
+  locationLink: "https://www.google.com/maps/place/India",
+  about: "Software Developer focused on Python, C, Automation, and Telegram Bots.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Software Developer with hands-on experience in Python and C, specializing
+      in automation, API integrations, and Telegram bot development. Actively
+      freelancing while pursuing a BCA degree, with a strong focus on building
+      real-world systems such as subscription bots, referral workflows, and
+      business automation tools. Passionate about scalable backend systems and
+      preparing for international master’s studies in Computer Science.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/YOUR_GITHUB_ID",
+  personalWebsiteUrl: "https://github.com/YOUR_USERNAME",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "your-email@example.com",
+    tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/YOUR_USERNAME",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/YOUR_LINKEDIN/",
         icon: "linkedin",
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: "x",
       },
     ],
   },
+
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Jain University (Online)",
+      degree: "Bachelor of Computer Applications (BCA)",
+      start: "2025",
+      end: "2028",
     },
   ],
+
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
+      company: "Freelance",
+      link: "",
+      badges: ["Remote", "Python", "Automation", "Telegram Bots", "APIs"],
+      title: "Software Developer",
+      start: "2024",
       end: null,
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
-        </>
-      ),
-    },
-    {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
-      end: "2025",
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Working as a freelance developer building automation tools and Telegram
+          bots for businesses and creators.
           <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
+            <li>Developed Telegram subscription and verification bots</li>
+            <li>Built API-integrated automation workflows</li>
+            <li>Designed admin systems, referral logic, and user management</li>
+            <li>Delivered clean, maintainable Python code for real clients</li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
+
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Python",
+    "C Programming",
+    "Telegram Bot Development",
+    "Automation",
+    "REST APIs",
+    "PostgreSQL",
+    "Playwright",
+    "Linux",
+    "Git & GitHub",
+    "FFmpeg",
+    "Google Sheets API",
   ],
+
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Telegram Subscription Bot",
+      techStack: ["Python", "Telegram API", "PostgreSQL"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "A full-featured Telegram bot for subscription management, verification workflows, admin approvals, and automated access control.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "GitHub",
+        href: "https://github.com/YOUR_USERNAME/telegram-subscription-bot",
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Automation & API Bot",
+      techStack: ["Python", "REST APIs"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "Telegram bot integrated with external APIs to automate workflows, manage users, and trigger business actions.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "GitHub",
+        href: "https://github.com/YOUR_USERNAME/telegram-automation-bot",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Playwright Automation",
+      techStack: ["Python", "Playwright"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Browser automation scripts for dynamic websites, testing flows, and task automation.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "GitHub",
+        href: "https://github.com/YOUR_USERNAME/playwright-automation",
+      },
+    },
+    {
+      title: "Python Automation Scripts",
+      techStack: ["Python"],
+      description:
+        "Collection of Python scripts for scraping, file processing, and workflow automation.",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/YOUR_USERNAME/python-automation-scripts",
+      },
+    },
+    {
+      title: "C Programming Projects",
+      techStack: ["C"],
+      description:
+        "Logic-building and system-level programs demonstrating strong fundamentals in C programming.",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/YOUR_USERNAME/c-programming-practice",
       },
     },
   ],
