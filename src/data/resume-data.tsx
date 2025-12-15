@@ -3,7 +3,7 @@ import type { ResumeData } from "@/lib/types";
 export const RESUME_DATA: ResumeData = {
   name: "Tarun",
   initials: "TG",
-  location: "India (Open to Remote & Germany)",
+  location: "India (Open to Remote)",
   locationLink: "https://www.google.com/maps/place/India",
   about: "Software Developer focused on Python, C, Automation, and Telegram Bots.",
   summary: (
@@ -16,20 +16,20 @@ export const RESUME_DATA: ResumeData = {
       preparing for international master’s studies in Computer Science.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/YOUR_GITHUB_ID",
-  personalWebsiteUrl: "https://github.com/YOUR_USERNAME",
+  avatarUrl: "https://avatars.githubusercontent.com/u/Tarun937",
+  personalWebsiteUrl: "https://github.com/Tarun937",
   contact: {
-    email: "your-email@example.com",
+    email: "tarunmass932007@gmail.com",
     tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/YOUR_USERNAME",
+        url: "https://github.com/Tarun937",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/YOUR_LINKEDIN/",
+        url: "https://www.linkedin.com/in/tarun007/",
         icon: "linkedin",
       },
     ],
@@ -89,7 +89,7 @@ export const RESUME_DATA: ResumeData = {
         "A full-featured Telegram bot for subscription management, verification workflows, admin approvals, and automated access control.",
       link: {
         label: "GitHub",
-        href: "https://github.com/YOUR_USERNAME/telegram-subscription-bot",
+        href: "https://github.com/mass9307/telegram-subscription-bot",
       },
     },
     {
@@ -99,7 +99,7 @@ export const RESUME_DATA: ResumeData = {
         "Telegram bot integrated with external APIs to automate workflows, manage users, and trigger business actions.",
       link: {
         label: "GitHub",
-        href: "https://github.com/YOUR_USERNAME/telegram-automation-bot",
+        href: "https://github.com/mass9307/telegram-automation-bot",
       },
     },
     {
@@ -109,7 +109,7 @@ export const RESUME_DATA: ResumeData = {
         "Browser automation scripts for dynamic websites, testing flows, and task automation.",
       link: {
         label: "GitHub",
-        href: "https://github.com/YOUR_USERNAME/playwright-automation",
+        href: "https://github.com/mass9307/playwright-automation",
       },
     },
     {
@@ -119,7 +119,7 @@ export const RESUME_DATA: ResumeData = {
         "Collection of Python scripts for scraping, file processing, and workflow automation.",
       link: {
         label: "GitHub",
-        href: "https://github.com/YOUR_USERNAME/python-automation-scripts",
+        href: "https://github.com/mass9307/python-automation-scripts",
       },
     },
     {
@@ -129,7 +129,7 @@ export const RESUME_DATA: ResumeData = {
         "Logic-building and system-level programs demonstrating strong fundamentals in C programming.",
       link: {
         label: "GitHub",
-        href: "https://github.com/YOUR_USERNAME/c-programming-practice",
+        href: "https://github.com/mass9307/c-programming-practice",
       },
     },
   ],
